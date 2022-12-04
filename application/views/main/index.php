@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <title><?= $title; ?></title>
-  <link rel='stylesheet prefetch' href='<?php echo base_url('assets/');?>dropdown/css1.css'>
+  <link rel='stylesheet' href='<?= base_url('assets/');?>dropdown/css.css'>
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css'/>
-  <link rel="stylesheet" href="<?php echo base_url('assets/');?>dropdown/style.css"/>
+  <link rel="stylesheet" href="<?= base_url('assets/');?>dropdown/style.css"/>
 
 <!-- BUTTON STYLE -->
 <style>
